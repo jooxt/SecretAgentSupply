@@ -30,7 +30,37 @@ body {
   margin: 0.66rem 0;
 }
 
+/* header */
 
+.header {
+  height: 25rem;
+  background-image: url(../images/moto.jpeg);
+  display: flex;
+  align-items: center;
+}
+
+.header .newarrival {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+
+  background-color: black;
+  color: white;
+}
+
+.header h2 {
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+.header h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 0.25rem;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+}
 
 /* footer */
 

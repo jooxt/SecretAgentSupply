@@ -179,4 +179,49 @@ body {
 
 @media only screen and (max-width: 470px) {
 
+  .header .container {
+    align-items: flex-end;
+  }
+
+  .header .newarrival {
+    width: 100%;
+  }
+
+  .header h2 {
+    font-size: 0.77rem;
+  }
+
+  .header h1 {
+    font-size: 1rem;
+  }
+
+/* main */
+
+  .watch {
+    display: none;
+  }
+
+  .pen {
+    width: 90%;
+  }
+
+  .products {
+    justify-content: center;
+  }
+
+  .info {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .location, .hours {
+    width: 90%;
+    margin-bottom: 0.5rem;
+  }
+
+/* footer */
+
+  .footer .container {
+    justify-content: center;
+  }
 }
